@@ -1,0 +1,30 @@
+# === הגדרות עבור הלקוח (React) ===
+# התעלמות מספריות התקנה
+ToDoListReact/node_modules/
+ToDoListReact/dist/
+ToDoListReact/build/
+
+# התעלמות מקובצי לוג והגדרות מקומיות
+ToDoListReact/.env.local
+ToDoListReact/.env.development.local
+ToDoListReact/.env.test.local
+ToDoListReact/.env.production.local
+ToDoListReact/npm-debug.log*
+
+# === הגדרות עבור השרת (Minimal API - .NET) ===
+# התעלמות מתיקיות הפלט של הקומפילציה
+ToDoApi/bin/
+ToDoApi/obj/
+
+# התעלמות מהגדרות משתמש והרצה מקומיות
+ToDoApi/appsettings.Development.json
+ToDoApi/.vs/
+ToDoApi/.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === הגדרות כלליות למערכות הפעלה ===
+.DS_Store
+Thumbs.db
